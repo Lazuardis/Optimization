@@ -9,6 +9,7 @@ Study case in which this folder holds represent a basic, yet challenging, compre
 *typical transportation problem* ([image source](https://machinelearninggeek.com/wp-content/uploads/2022/01/image-10.png))
 
 
+----
 
 To start please open the <u>*Vision Corporation Production Planning and Shipping.pdf*</u> within the folder. This file contains the Problem Definition of the case
 
