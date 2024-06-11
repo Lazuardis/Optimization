@@ -4,6 +4,9 @@
 
 Study case in which this folder holds represent a basic, yet challenging, comprehensive case of **Linear Programming** specifically **Allocation** and **Transportation** problem.
 
+![alt text](image.png)
+*typical transportation problem* ([image source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FA-single-stage-fixed-charge-transportation-problems-FCTP_fig1_328604033&psig=AOvVaw3mjLTWVw6eZShyXcSbwpIT&ust=1718175589048000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiP6IL90oYDFQAAAAAdAAAAABAI))
+
 To start please open the <u>*Vision Corporation Production Planning and Shipping.pdf*</u> within the folder. This file contains the Problem Definition of the case
 
 The problem definition does not come with any mathematical model. And we need to formulate it into those mathematical model if we want to model them in Python. So you can refer to **Mathematical Model.pdf** if you need to confirm the mathematical model. 
