@@ -102,7 +102,7 @@ def inspection_constraint(model):
     return sum(model.ship[p, r, c] for p in [1, 2] for r in products for c in ['RAYco', 'HONco']) <= inspection_capacity
 model.inspection_constraint = pyo.Constraint(rule=inspection_constraint)
 
-model.dual = pyo.Suffix(direction=pyo.Suffix.IMPORT)
+# model.dual = pyo.Suffix(direction=pyo.Suffix.IMPORT)
 
 # Solve the model
 opt = pyo.SolverFactory('cbc', executable='C:\\bin\\cbc.exe')
