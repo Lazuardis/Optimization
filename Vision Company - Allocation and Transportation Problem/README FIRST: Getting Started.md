@@ -4,10 +4,11 @@
 
 Study case in which this folder holds represent a basic, yet challenging, comprehensive case of **Linear Programming** specifically **Allocation** and **Transportation** problem.
 
-![Typical Transportation Problem](image.png)
-*typical transportation problem* ([image source]
+![alt text](image-1.png)
 
-<img src="https://www.researchgate.net/profile/Komeil-Yousefi/publication/328604033/figure/fig1/AS:687805265113103@1540996962589/A-single-stage-fixed-charge-transportation-problems-FCTP.png" width="200" height="250">)
+*typical transportation problem* ([image source](https://machinelearninggeek.com/wp-content/uploads/2022/01/image-10.png))
+
+
 
 To start please open the <u>*Vision Corporation Production Planning and Shipping.pdf*</u> within the folder. This file contains the Problem Definition of the case
 
