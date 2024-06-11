@@ -1,6 +1,6 @@
 # Vision Corporation: Production Planning and Shipping
 
-## Instruction
+## 1. Instruction
 
 Study case in which this folder holds represent a basic, yet challenging, comprehensive case of **Linear Programming** specifically **Allocation** and **Transportation** problem.
 
@@ -13,7 +13,7 @@ Upon learning about the study case and the mathematical model, I provide <u>5 Py
 To understand what each of 5 codes represent, along with their interpretation of result you will get upon running the code, I provide the <u>**Solution Brief Description**</u> in .pptx format
 
 
-## Technical Notes (Installing/Initiating Solver)
+## 2. Technical Notes (Installing/Initiating Solver)
 
 Well, doing a Linear Programming in Python ought us to prepare the solver. It's kind of external package you need to make sure present because Python alone is not able to solve your model.
 
@@ -27,3 +27,7 @@ And if you doing it locally, please refer to the <u>**Solution Brief Description
 
 Note: I strongly urge you to explore more about 'solvers' in the internet if you are just new in this realm.
 
+
+## 3. Learning Outcome
+
+This study case will particularly deep dive in model formulation using Python. But specifically you will also gain some insight about doing sensitivity analysis through modifying constraints. In Operation Research lingo, you will learn what is called by Dual/Shadow Price, and Allowable Increase.
