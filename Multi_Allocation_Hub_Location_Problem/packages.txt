@@ -1,1 +1,1 @@
-coinor-cbc
+coin-or-cbc
