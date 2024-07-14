@@ -14,7 +14,8 @@ if uploaded_file is not None:
 else:
 
     # Load the data into a DataFrame
-    cost_df = pd.read_excel('Multi_Allocation_Hub_Location_Problem/cost_matrix_multi_hub.xlsx')
+    # cost_df = pd.read_excel('Multi_Allocation_Hub_Location_Problem/cost_matrix_multi_hub.xlsx')
+    cost_df = pd.read_excel('cost_matrix_multi_hub.xlsx')
 
 
 # Load the data into a DataFrame
@@ -93,7 +94,7 @@ if st.button('Calculate'):
 
     # Solve the model
     # opt = pyo.SolverFactory('cbc', executable='Multi_Allocation_Hub_Location_Problem\\bin\\cbc.exe')  # Change solver if needed
-    opt = pyo.SolverFactory('cbc')
+    opt = pyo.SolverFactory('cbc', executable='bin\\cbc.exe')  # Change solver if needed
     results = opt.solve(model)
 
     # Extract the objective function value
