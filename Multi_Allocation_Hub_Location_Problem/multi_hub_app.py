@@ -94,7 +94,7 @@ if st.button('Calculate'):
 
     # Solve the model
     # opt = pyo.SolverFactory('cbc', executable='Multi_Allocation_Hub_Location_Problem\\bin\\cbc.exe')  # Change solver if needed
-    opt = pyo.SolverFactory('cbc', executable='bin\\cbc.exe')  # Change solver if needed
+    opt = pyo.SolverFactory('cbc', executable='Multi_Allocation_Hub_Location_Problem/bin/cbc.exe')  # Change solver if needed
     results = opt.solve(model)
 
     # Extract the objective function value
