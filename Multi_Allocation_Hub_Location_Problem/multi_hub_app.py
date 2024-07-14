@@ -15,7 +15,7 @@ else:
 
     # Load the data into a DataFrame
     # cost_df = pd.read_excel('Multi_Allocation_Hub_Location_Problem/cost_matrix_multi_hub.xlsx')
-    cost_df = pd.read_excel('cost_matrix_multi_hub.xlsx')
+    cost_df = pd.read_excel('Multi_Allocation_Hub_Location_Problem/cost_matrix_multi_hub.xlsx')
 
 
 # Load the data into a DataFrame
